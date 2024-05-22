@@ -309,7 +309,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
     header {
         text-align: end;
@@ -345,12 +345,16 @@ footer{
         font-size: 1rem; 
         padding-top: 2rem;
     }
+    #sobre>.paragrafo>p{
+        font-size: 1rem;        
+    }
 
     .titulo>h1 {
         font-size: 4rem;
     }
     .titulo>h2{
         font-size: 300%;
+        margin-top: 1rem;
     }
     .titulo>h4{
         text-align: end;
@@ -360,7 +364,6 @@ footer{
 
     .formacaoConteudo>div>h3 {
         padding-left: 0.4rem;
-        padding-bottom: 0;
         font-size: 1.5rem;
     }
     #formacaoAcademica>div {
@@ -370,6 +373,7 @@ footer{
         margin: 0;
         margin-bottom: 1rem;
         width: 80%;
+        font-size: 1rem;
     }
 
     .listaConhecimento {
